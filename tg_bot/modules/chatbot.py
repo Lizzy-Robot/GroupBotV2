@@ -47,7 +47,7 @@ def remove_chat(bot: Bot, update: Update):
         
 def check_message(bot: Bot, message):
     reply_msg = message.reply_to_message
-    if message.text.lower() == "saitama":
+    if message.text.lower() == "alexsis":
         return True
     if reply_msg:
         if reply_msg.from_user.id == bot.get_me().id:
@@ -94,7 +94,7 @@ To Prevent Flood, We have taken Decision to mnaually add in chat,
 When any Chat Admins Request it
 
 To Request your Chat to enable Auto Messaging (Enabling API)
-Please Request it here at @BotSupportGroup and Tag @admin
+Please Request it here at @Bakchodi_Squad and Tag @admin
 
 
 This Module works on CoffeHosuse a part of @Intellivoid
